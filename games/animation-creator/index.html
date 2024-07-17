@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Animation Creator</title>
+</head>
+<body>
+	<h1>Animation Creator</h1>
+	<a href="#" onclick="document.getElementById('fileInput').click();">Upload a file here to use it in your animation</a>
+	<input type="file" id="fileInput" accept=".png, .jpg, .jpeg, .bmp" style="display: none;" onchange="handleFileUpload(event)">
+	<div id="imageContainer"></div>
+	<script src="script.js"></script>
+</body>
+</html>
