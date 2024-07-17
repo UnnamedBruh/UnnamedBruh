@@ -7,8 +7,11 @@
 </head>
 <body>
 	<h1>Animation Creator</h1>
+	<canvas id="animation" style="width: 1080px; height: 720px"></canvas>
+	<pre>Aspect ratio: 3:2
+Resolution: 1080x720</pre><br>
 	<a href="#" onclick="document.getElementById('fileInput').click();">Upload a file here to use it in your animation</a>
-	<input type="file" id="fileInput" accept=".png, .jpg, .jpeg, .bmp" style="display: none;" onchange="handleFileUpload(event)">
+	<input type="file" id="fileInput" accept=".png, .jpg, .jpeg, .bmp, .svg" style="display: none;" onchange="handleFileUpload(event)">
 	<div id="imageContainer"></div>
 	<script src="script.js"></script>
 </body>
